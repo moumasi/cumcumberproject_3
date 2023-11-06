@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can add any item in the cart",
+        "description": "",
+        "id": "this-is-a-add-cart-feature-to-verify-user-can-add-item-in-cart;verify-user-can-add-any-item-in-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6348956700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open amazon application",
+            "match": {
+              "location": "step_class.open_amazon_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 526007200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter item name",
+            "match": {
+              "location": "step_class.enter_item_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2982580800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on search icon",
+            "match": {
+              "location": "step_class.click_on_search_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4691992000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on select item",
+            "match": {
+              "location": "step_class.click_on_select_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4099001300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on add cart",
+            "match": {
+              "location": "step_class.click_on_add_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2296966000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify item added in cart",
+            "match": {
+              "location": "step_class.verify_item_added_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Reel"
+          }
+        ]
+      }
+    ],
+    "name": "This is a add cart feature to verify user can add item in cart",
+    "description": "",
+    "id": "this-is-a-add-cart-feature-to-verify-user-can-add-item-in-cart",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature-folder/cartlink.feature"
+  }
+]
